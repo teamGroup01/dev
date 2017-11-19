@@ -1,0 +1,65 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  border-radius: 6px;
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.d1 {
+  margin: 0px;
+  width:200px;
+  height:100px;
+  background-color: #FFFFFF;
+}
+
+.d1text {
+  position: relative;
+  top: 20px;
+  width: 120px;
+  height: 30px;
+  text-align: right;
+  font-weight:400;
+  font-style:normal;
+  font-size:14px;
+}
+
+.d1toop {
+  position: absolute;
+  top: 193px;
+  left: 350px;
+  height: 30px;
+}
+
+.d1text1 {
+  position: relative;
+  top: 10px;
+  height: 60px;
+  text-align: center;
+  font-weight:400;
+  font-style:normal;
+  font-size:30px;
+}
+
+.d1text2 {
+  font-style:normal;
+  font-size:14px;
+}
+
+.menu {
+  font-size: 20px;
+  font-family: "Microsoft Yahei";
+  color: #3c80e2;
+}
+
+.menu1 {
+  font-size: 20px;
+  font-family: "Microsoft Yahei";
+  color: #3b3b3b;
+}
+
+.menu2 {
+  font-size: 18px;
+  font-family: "Microsoft Yahei";
+  color: #3b3b3b;
+}

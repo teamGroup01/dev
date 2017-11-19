@@ -1,0 +1,100 @@
+h1{
+  padding-left: 15px;
+  padding-top: 15px;
+  float: left;
+}
+.rightlable{
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  margin-right: 2rem;
+}
+.rightitem{
+  margin-right: 15px;
+  font-size: 15px;
+}
+.firstlable{
+
+}
+.adamleftitem{
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.adaleftcontent1{
+  margin-top: 15px;
+  font-size: 14px;
+}
+.adarightcontent1{
+
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+.adaleftcontent2{
+  margin-top: 15px;
+  font-size: 14px;
+}
+.adarightcontent2{
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+.adaleftcontent3{
+  margin-top: 15px;
+  font-size: 14px;
+}
+.adarightcontent3{
+  margin-top: 15px;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+
+
+
+.adaleftcontent4{
+  margin-top: 15px;
+  font-size: 14px;
+}
+.adarightcontent4{
+  margin-top: 15px;
+  font-size: 14px;
+  margin-left: 50px;
+}
+
+.adam{
+  display: flex;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.adamcontent{
+  display: flex;
+  width: 95%;
+  margin: 1.5rem;
+  height: 14.4rem;
+  background-color: white;
+  justify-content: space-around;
+}
+.adamitem{
+  display: flex;
+  flex-wrap:nowrap;
+  margin-left: 3.5rem;
+  flex-direction:row;
+}
+.title{
+  display: flex;
+  width: 95%;
+  height: 3rem;
+  margin: 1.5rem;
+  background-color: white;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.body{
+  width: 100%;
+  height: auto;
+}
+

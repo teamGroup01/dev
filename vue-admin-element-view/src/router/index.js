@@ -9,6 +9,11 @@ export const constantRouterMap = [{
   component: _import('login/index')
 }]
 
+export const asyncRouterMap = [{
+  path: '/login',
+  component: _import('login/index')
+}]
+
 export default new VueRouter({
   mode: 'history',
   scrollBehavior: () => ({

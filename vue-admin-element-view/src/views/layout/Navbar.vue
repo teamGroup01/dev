@@ -1,6 +1,5 @@
 <template>
 	<el-menu class="navbar" mode="horizontal">
-		<hamburger></hamburger>
 	</el-menu>
 </template>
 
@@ -14,5 +13,4 @@ export default {
 </script>
 
 <style>
-
 </style>

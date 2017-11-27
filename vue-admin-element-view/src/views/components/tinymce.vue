@@ -1,5 +1,5 @@
 <template>
   <div>
-  authredirect
+    tinymce
   </div>
 </template>

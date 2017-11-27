@@ -1,5 +1,5 @@
 <template>
   <div>
-  authredirect
+    permission
   </div>
 </template>

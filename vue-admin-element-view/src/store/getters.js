@@ -1,7 +1,10 @@
-export const addRoutes = state => state.permission.addRoutes
-
-export const permission_routers = state => state.permission.routers
-
-export const roles = state => state.user.roles
-
-export const token = state => state.user.token
+const getters = {
+  token: state => state.user.token,
+  avatar: state => state.user.avatar,
+  name: state => state.user.name,
+  introduction: state => state.user.introduction,
+  roles: state => state.user.roles,
+  permission_routers: state => state.permission.routers,
+  addRouters: state => state.permission.addRouters
+}
+export default getters

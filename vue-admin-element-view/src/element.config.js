@@ -1,5 +1,3 @@
 import Vue from 'vue'
-import {
-  Select
-} from 'element-ui'
-Vue.use(Select)
+import ElementUI from 'element-ui'
+Vue.use(ElementUI)

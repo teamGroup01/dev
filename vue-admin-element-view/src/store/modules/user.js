@@ -20,19 +20,16 @@ export const user = {
   },
   action: {
     // user login
-    LoginByUsername({
-      commit
-    }, userinfo) {
-      const username = userinfo.username.trim()
-      const {
-        password
-      } = userinfo
+    LoginByUsername({ commit }, userInfo) {
+      const username = userInfo.username.trim()
       return new Promise((resolve, reject) => {
-        loginByUsername(username, password).then(response => {
+        loginByUsername(username, userInfo.password).then(response => {
+          console.log(response.data)
           const data = response.data
           setToken(response.data.token)
           commit('SET_TOKEN', data.token)
-        }).catch((error) => {
+          resolve()
+        }).catch(error => {
           reject(error)
         })
       })
